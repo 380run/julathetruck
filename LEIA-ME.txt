@@ -1,0 +1,24 @@
+JULA THE TRUCK
+Jogo de restauração da Chevrolet C10 1977, um tributo à Jula e ao vovô Antônio.
+
+ARQUIVOS (todos devem ficar na mesma pasta)
+- index.html             o jogo inteiro (imagens e sons já estão dentro dele)
+- manifest.webmanifest   dados do aplicativo (nome, cores, ícones)
+- sw.js                  faz o jogo abrir sem internet depois da primeira visita
+- icon-180.png, icon-192.png, icon-512.png, icon-maskable-512.png   ícones da tela inicial
+
+COMO PUBLICAR NO GITHUB PAGES
+1. Crie um repositório público no GitHub.
+2. Envie todos os arquivos desta pasta para a raiz do repositório.
+3. Em Settings > Pages, escolha a branch main e a pasta /(root), e salve.
+4. Depois de alguns minutos, o jogo fica em https://SEU-USUARIO.github.io/NOME-DO-REPOSITORIO/
+
+COMO INSTALAR NO CELULAR (depois de publicado)
+- iPhone: abra o link no Safari, toque em compartilhar e em "Adicionar à Tela de Início".
+- Android: abra o link no Chrome e use o botão "Instalar o jogo no celular" na tela inicial do jogo.
+Se o link foi aberto dentro do WhatsApp, abra primeiro no Safari ou no Chrome.
+
+OBSERVAÇÕES
+- Abrir o index.html direto do computador funciona para jogar, mas a instalação só funciona numa página https.
+- O progresso fica salvo no próprio aparelho, sem sincronizar entre celulares.
+- As fontes vêm do Google. Sem internet na primeira visita, o jogo abre com letras diferentes.
